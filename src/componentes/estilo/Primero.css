@@ -1,0 +1,44 @@
+/* Primero.css */
+.navbar-custom {
+    background-color: #343a40; /* Fondo oscuro */
+    border-bottom: 1px solid #e0e0e0; /* Límite inferior más suave */
+    border-radius: 0 0 10px 10px; /* Bordes redondeados en la parte inferior */
+    padding: 0.8rem 2rem; /* Espaciado para hacerlo más agradable */
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #f8f9fa; /* Color de la marca */
+    font-size: 1.5rem; /* Tamaño de fuente más grande para la marca */
+    font-weight: bold; /* Hacer la marca más destacada */
+  }
+  
+  .navbar-custom .nav-link {
+    color: #f8f9fa; /* Color blanco para los enlaces */
+    font-size: 1rem; /* Tamaño de fuente estándar */
+    font-weight: 500; /* Peso de fuente intermedio */
+    margin-right: 1.5rem; /* Espaciado entre los enlaces */
+    transition: color 0.3s ease; /* Transición suave en el hover */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ffffff; /* Color de los enlaces al pasar el mouse */
+    scale: 1.34;
+  }
+  
+  .navbar-custom .navbar-collapse {
+    justify-content: flex-end; /* Alineación de los enlaces a la derecha */
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border-color: #ff6347; /* Color del borde del botón de menú */
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    background-color: #ff6347; /* Color del icono del menú */
+  }
+  
+  /* Opcional: Efecto de sombra para que se vea más elegante */
+  .navbar-custom {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
