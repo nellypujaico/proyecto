@@ -1,0 +1,87 @@
+.cover-container {
+    margin-top: 20px;
+  }
+  
+  .cover-column {
+    position: relative;
+  }
+  
+  .cover-photo {
+    background-image: url('./portada.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Fondo oscuro y semi-transparente detrás del texto */
+  .cover-photo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .cover-text {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  
+  .btn-discover {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    border: none;
+  }
+  
+  .btn-discover:hover {
+    background-color: #ff4500;
+  }
+  
+  .sidebar-column {
+    padding-top: 20px;
+  }
+  
+  /* Estilo para las imágenes pequeñas */
+  .small-image {
+    width: 100%;
+  }
+  
+  .small-image img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .small-image:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Efecto de hover en las imágenes pequeñas */
+  .hover-effect {
+    cursor: pointer;
+  }
+  
+  .hover-effect:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  

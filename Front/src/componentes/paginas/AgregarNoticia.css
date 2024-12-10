@@ -1,0 +1,112 @@
+/* Estilos para la sección de agregar noticia */
+.agregar-noticia-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .agregar-noticia-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .agregar-noticia-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .agregar-noticia-form div {
+    margin-bottom: 15px;
+  }
+  
+  .agregar-noticia-form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .agregar-noticia-form input,
+  .agregar-noticia-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .agregar-noticia-form input:focus,
+  .agregar-noticia-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .agregar-noticia-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .agregar-noticia-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Previsualización de la imagen */
+  .imagen-prev {
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para mostrar las noticias */
+  .noticias-lista {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .noticia-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .noticia-card h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .noticia-card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .noticia-card img {
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
